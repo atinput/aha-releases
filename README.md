@@ -5,11 +5,10 @@ Application development and source control are maintained separately.
 
 ## Downloads
 
-Use the assets on the [Releases page](https://github.com/atinput/aha-releases/releases)
-once the organization pilot is published. No organization release is available yet.
+Use the assets on the [Releases page](https://github.com/atinput/aha-releases/releases).
 Pilot installers are available for macOS on Apple Silicon.
 
-The organization bootstrap is `0.1.5` (publication pending). Earlier builds need
+The organization bootstrap is `0.1.5`. Earlier builds need
 one manual installation to switch from the retired personal feed. Subsequent
 builds check at launch and offer **Update now** or
 **Later** before opening the workspace. Finish your work, quit normally and reopen
