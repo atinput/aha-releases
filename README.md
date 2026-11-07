@@ -7,9 +7,10 @@ Application development and source control are maintained separately.
 
 Use the assets on the [Releases page](https://github.com/atinput/aha-releases/releases).
 Pilot installers are available for macOS on Apple Silicon.
+Use the latest pilot (`0.1.7` or newer); earlier pilot releases are superseded.
 
-The organization bootstrap is `0.1.5`. Earlier builds need
-one manual installation to switch from the retired personal feed. Subsequent
+The organization feed was introduced in `0.1.5`. Install the latest DMG manually
+once when upgrading from `0.1.4` or earlier to switch from the retired personal feed. Subsequent
 builds check at launch and offer **Update now** or
 **Later** before opening the workspace. Finish your work, quit normally and reopen
 to install an available update. **Settings → Appearance → Aha updates** also
