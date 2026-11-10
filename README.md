@@ -1,6 +1,6 @@
 # Aha desktop releases
 
-This repository hosts official Aha desktop installers and signed update bundles.
+This repository hosts official Aha desktop installers, signed update bundles, and the Aha Web Clipper Chrome extension.
 Application development and source control are maintained separately.
 
 ## Downloads
@@ -16,6 +16,27 @@ builds check at launch and offer **Update now** or
 to install an available update. **Settings → Appearance → Aha updates** also
 provides a manual version check. These releases remain a Mac pilot; clean-Mac
 rollout checks and Apple Developer ID notarization are pending.
+
+## Chrome extension — Aha Web Clipper
+
+[Download Aha Web Clipper v0.3.0](https://github.com/atinput/aha-releases/releases/download/v0.1.8/Aha-Web-Clipper-0.3.0.zip)
+to save web pages, selected passages, and PDF documents into Aha.
+
+1. Download and extract the ZIP. Keep the extracted folder somewhere permanent.
+2. In Chrome 123 or newer, open `chrome://extensions` and enable **Developer mode**.
+3. Click **Load unpacked** and select the extracted `Aha-Web-Clipper` folder containing `manifest.json`.
+4. Open your Aha workspace in Chrome, then choose **Settings → Chrome extension → Connect Chrome extension**. Click **Connect Chrome extension** on the setup page.
+5. Pin **Aha Web Clipper** in Chrome's extensions menu. Open a page, click the clipper, and save it to Aha.
+
+Aha must be running and reachable from Chrome. You can also connect from the
+clipper's **Connection → Connect to Aha** menu by entering your Aha web server URL.
+The default is `http://localhost:3000`; use your actual server address if different.
+Remote servers require HTTPS. The extension does not start an Aha server.
+
+This is a manual installation, not a Chrome Web Store listing. For later updates,
+replace the files in the same extracted folder, click **Reload** on
+`chrome://extensions`, and refresh open pages. The ZIP includes installation notes
+and the bundled reader's license.
 
 ## Update feed
 
