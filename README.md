@@ -10,12 +10,18 @@ Pilot installers are available for macOS on Apple Silicon.
 Use the latest release marked **Latest**; earlier pilot releases are superseded.
 
 The organization feed was introduced in `0.1.5`. Install the latest DMG manually
-once when upgrading from `0.1.4` or earlier to switch from the retired personal feed. Subsequent
-builds check at launch and offer **Update now** or
-**Later** before opening the workspace. Finish your work, quit normally and reopen
-to install an available update. **Settings → Appearance → Aha updates** also
-provides a manual version check. These releases remain a Mac pilot; clean-Mac
-rollout checks and Apple Developer ID notarization are pending.
+once when upgrading from `0.1.4` or earlier to switch from the retired personal feed.
+Starting with `0.1.17`, Aha downloads and verifies updates in the background by default.
+When ready, the Settings icon shows **Finish update**. Click it to open **General**,
+then choose **Relaunch to update**. A normal quit also applies a ready update for the
+next launch. Save edits and finish active agent work before restarting or quitting.
+
+In **Settings → General → Aha updates**, turn off **Automatically download updates**
+to download each update yourself with **Download the latest**. The preference is
+saved across launches. **Check for updates** stays available anytime; **Aha → About
+Aha** shows the same release notes and controls. Earlier clients retain their older
+update controls until they install this version. These releases remain a Mac pilot;
+clean-Mac rollout checks and Apple Developer ID notarization are pending.
 
 ## Chrome extension — Aha Web Clipper
 
